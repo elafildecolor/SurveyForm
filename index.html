@@ -17,9 +17,37 @@
 
       <form id="servey-form">
         <label for="name">Name</label> <br />
-        <input id="name" type="text" placeholder="enter your name" required/><br>
-        <label for="email">Email</label><br>
-        <input id="email" type="email" placeholder="Enter your email" required><br>
+        <input
+          id="name"
+          type="text"
+          placeholder="enter your name"
+          required
+        /><br />
+        <label for="email">Email</label><br />
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+          required
+        /><br />
+        <label for="age">Age (optional)</label> <br />
+        <input
+          id="age"
+          type="number"
+          placeholder="Age"
+          min="10"
+          max="99"
+        /><br />
+        <label for="role">Which option best describes your current role? </label
+        ><br />
+        <select name="role" id="role">
+          <option select dis>Select current role</option>
+          <option>Student</option>
+          <option>full time job</option>
+          <option>full time learner</option>
+          <option>prefer not to say</option>
+          <option>other</option>
+        </select>
       </form>
     </main>
 
